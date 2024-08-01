@@ -90,18 +90,14 @@ nav li:hover .sub-menu{
 .sub-menu:hover{
     background-color: #68a474;
 } 
-nav input[type=checkbox] ul {
+nav input[type=checkbox]:checked~ ul {
     display: block;
 }
 @media screen and (max-width: 780px){
     .menu-mobile{
         display:block;
         color: #fff;
-        background-color: rgb(156, 228, 156);
-        text-align: center;
-        padding: 12px, 0px;
-        width: 200%;
-        height: 60px;
+        background-color: #dfae30;
     }
     nav ul{
         display: none;
