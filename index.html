@@ -4,48 +4,70 @@
     <title>mon projet</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  <nav>
-    <label for="menu-mobile" class="menu-mobile">MENU</label>
-    <input type="checkbox" id="menu-mobile" role="button">
-    <ul class="conteneur">
-        <li class="menu-html"><a href="#">PROFIL</a>
+  <section>
+    <nav>
+      <label for="menu-mobile" class="menu-mobile">MENU</label>
+      <input type="checkbox" id="menu-mobile" role="button">
+      <ul class="conteneur">
+          <li class="menu-html"><a href="#">PROFIL</a>
+            <ul class="sub-menu">
+              <li><a href="">parcours scaulaire</a></li>
+              <li><a href="">parcours professionl</a></li>
+              <li><a href="">loisir</a></li>
+            </ul>
+          </li>
+        <li class="menu-css"><a href="#">SERVICES</a>
           <ul class="sub-menu">
-           <li><a href="">parcours scaulaire</a></li>
-           <li><a href="">parcours professionl</a></li>
-           <li><a href="">loisir</a></li>
+            <li><a href="">Développeur de site web</a></li>
           </ul>
         </li>
-      <li class="menu-css"><a href="#">SERVICES</a>
-        <ul class="sub-menu">
-          <li><a href="">Développeur de site web</a></li>
-        </ul>
-      </li>
-      <li class="menu-js"><a href="#">PORTFOLIO</a>
-        <ul class="sub-menu">
-          <li><a href="">projet</a></li>
-          <li><a href="">projet en cours...</a></li>
-        </ul>
-      </li>
-      <li class="menu-contacte"><a href="#">CONTACTE</a>
-        <ul class="sub-menu">
-          <li><a href="contacte.html">par mail</a></li>
-          <li><a href="">réseau sociaux</a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
-  <div class="text">
-    <h1>
+        <li class="menu-js"><a href="#">PORTFOLIO</a>
+          <ul class="sub-menu">
+            <li><a href="">projet</a></li>
+            <li><a href="">projet en cours...</a></li>
+          </ul>
+        </li>
+        <li class="menu-contacte"><a href="#">CONTACTE</a>
+          <ul class="sub-menu">
+            <li><a href="contacte.html">par mail</a></li>
+            <li><a href="">réseau sociaux</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </section>
+  <section class="section2">
+    <div class="text">
+      <h1>
         bienvenu je stanislas issouf sonan N'DEPO<br>
         <span>developpeur web</span>
-    </h1>
-    <p>
+      </h1>
+      <p>
         vérifie mon portfolio pour voir quelques projet que j'ai realisé
-    </p>
-    <button>telecharger mon cv</button>
-</div>
-<script src="javaScript.js">js</script>
+      </p>
+      <button>telecharger mon cv</button>
+    </div>
+  </section>
+  <section class="section3">
+    <div class="container">
+      <i class="fas fa-briefcase fa-3x"></i>
+      <div class="counter" data-ceil="1"></div>
+      <h2>mois d'expérience</h2>
+  </div>
+  <div class="container">
+      <i class="fas fa-cloud fa-3x"></i>
+      <div class="counter" data-ceil="60"></div>
+      <h2>exercices faires</h2>
+  </div>
+  <div class="container">
+      <i class="fab fa-apple fa-3x"></i>
+      <div class="counter" data-ceil="1"></div>
+      <h2>nombre de site</h2>
+  </div>
+  </section>
+  <script src="javaScript.js">js</script>
 </body>
 </html>
